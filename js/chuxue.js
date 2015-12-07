@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('久等了|想了很久|对不起|这次自己|都很不满意|#countdown 3|风火夜继日|窗外白初至|卿可同吾往|踏雪不寻梅||君殇||喜欢你');
+      S.UI.simulate('久等了|#countdown 3|风火夜继日|白寒侵窗帷|冬月朔风起|人间舞纷飞|良辰稍纵逝|孤清却为谁|卿可随吾去|踏雪不寻梅||君殇||喜欢你');
     }
 
     S.Drawing.loop(function () {
